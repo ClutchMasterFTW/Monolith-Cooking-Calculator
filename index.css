@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Purista';
+    src: url('fonts/Purista-SemiBold.woff2') format('woff2'),
+        url('fonts/Purista-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Purista';
+    src: url('fonts/Purista-Bold.woff2') format('woff2'),
+        url('fonts/Purista-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Purista';
+    src: url('fonts/Purista-Medium.woff2') format('woff2'),
+        url('fonts/Purista-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Purista';
+}
+
+html {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#background-img {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
